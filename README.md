@@ -14,9 +14,9 @@ Traditional street lighting systems often remain ON unnecessarily, leading to ex
 
 The system continuously monitors:
 
-- Current Time and Date using RTC
-- Ambient Light Intensity using LDR and ADC
-- User-configurable RTC parameters through a Keypad Interface
+* Current Time and Date using RTC
+* Ambient Light Intensity using LDR and ADC
+* User-configurable RTC parameters through a Keypad Interface
 
 This results in an energy-efficient and fully automated smart lighting solution.
 
@@ -24,11 +24,11 @@ This results in an energy-efficient and fully automated smart lighting solution.
 
 ## 🎯 Project Objectives
 
-- ✅ Reduce power wastage in street lighting systems
-- ✅ Automate street light operation based on environmental conditions
-- ✅ Provide user-friendly RTC configuration
-- ✅ Demonstrate ARM7 peripheral integration
-- ✅ Implement interrupt-driven embedded system design
+* ✅ Reduce power wastage in street lighting systems
+* ✅ Automate street light operation based on environmental conditions
+* ✅ Provide user-friendly RTC configuration
+* ✅ Demonstrate ARM7 peripheral integration
+* ✅ Implement interrupt-driven embedded system design
 
 ---
 
@@ -36,68 +36,69 @@ This results in an energy-efficient and fully automated smart lighting solution.
 
 ### 🕐 Real-Time Clock Management
 
-- Displays current Time
-- Displays Date
-- Displays Day
-- Supports RTC parameter modification
+* Displays current Time
+* Displays Date
+* Displays Day
+* Supports RTC parameter modification
 
 ### 🌗 Intelligent Light Detection
 
-- LDR-based ambient light sensing
-- ADC conversion for light intensity measurement
-- Automatic day/night detection
+* LDR-based ambient light sensing
+* ADC conversion for light intensity measurement
+* Automatic day/night detection
 
 ### 💡 Automatic Street Light Control
 
-- Lights turn ON during low-light conditions
-- Lights turn OFF during daylight conditions
-- Dual-condition verification using RTC and LDR
+* Lights turn ON during low-light conditions
+* Lights turn OFF during daylight conditions
+* Dual-condition verification using RTC and LDR
 
 ### ⌨️ User Configuration Interface
 
-- 4×4 Matrix Keypad
-- RTC parameter editing
-- Menu-driven operation
+* 4×4 Matrix Keypad
+* RTC parameter editing
+* Menu-driven operation
 
 ### ⚡ Interrupt-Driven Design
 
-- EINT0 external interrupt support
-- Instant access to RTC configuration menu
-- Responsive user interaction
+* EINT0 external interrupt support
+* Instant access to RTC configuration menu
+* Responsive user interaction
 
 ### 🖥️ LCD Monitoring
 
 Displays:
-- Time
-- Date
-- Day
-- ADC Value
-- Menu Options
-- System Status
+
+* Time
+* Date
+* Day
+* ADC Value
+* Menu Options
+* System Status
 
 ---
 
 ## 🧩 Hardware Components
 
-| Component | Purpose |
-|---|---|
-| LPC2129 ARM7 MCU | Main Controller |
-| LCD 16×2 | User Interface |
-| LDR Sensor | Light Detection |
-| ADC Channel | Sensor Data Acquisition |
-| RTC Module | Time Management |
-| 4×4 Keypad | User Input |
-| LEDs | Street Light Simulation |
-| Push Button | EINT0 Interrupt Trigger |
-| Resistors | Current Limiting & Pull-ups |
+| Component        | Purpose                     |
+| ---------------- | --------------------------- |
+| LPC2129 ARM7 MCU | Main Controller             |
+| LCD 16×2         | User Interface              |
+| LDR Sensor       | Light Detection             |
+| ADC Channel      | Sensor Data Acquisition     |
+| RTC Module       | Time Management             |
+| 4×4 Keypad       | User Input                  |
+| LEDs             | Street Light Simulation     |
+| Push Button      | EINT0 Interrupt Trigger     |
+| Resistors        | Current Limiting & Pull-ups |
 
 ## 💻 Software Tools
 
-- Keil µVision
-- Proteus (Circuit Simulation)
-- Flash Magic
-- Embedded C
-- Git & GitHub
+* Keil µVision
+* Proteus (Circuit Simulation)
+* Flash Magic
+* Embedded C
+* Git & GitHub
 
 ---
 
@@ -280,30 +281,30 @@ Ecolight-Maestro/
 
 ## 🚦 Applications
 
-- Smart Street Lighting
-- Smart Cities
-- Campus Lighting
-- Industrial Lighting
+* Smart Street Lighting
+* Smart Cities
+* Campus Lighting
+* Industrial Lighting
 
 ## 🚀 Future Enhancements
 
-- Wireless Monitoring using IoT
-- GSM-Based Fault Reporting
-- Solar Powered Street Lights
-- Motion Detection for Adaptive Brightness
-- Cloud-Based Energy Analytics
-- Mobile Application Integration
+* Wireless Monitoring using IoT
+* GSM-Based Fault Reporting
+* Solar Powered Street Lights
+* Motion Detection for Adaptive Brightness
+* Cloud-Based Energy Analytics
+* Mobile Application Integration
 
 ## 🎓 Learning Outcomes
 
 Through this project, I gained practical experience in:
 
-- ARM7 LPC2129 Programming
-- Embedded C Development
-- RTC Programming
-- ADC Interfacing
-- Sensor Integration
-- Interrupt Handling
+* ARM7 LPC2129 Programming
+* Embedded C Development
+* RTC Programming
+* ADC Interfacing
+* Sensor Integration
+* Interrupt Handling
 
 ---
 
