@@ -251,30 +251,55 @@ EINT0 → P0.16
 ## 📂 Project Structure
 
 ```text
-Ecolight-Maestro/
-├── src/
-│   ├── MINI.c
-│   ├── ADC.c
-│   ├── KPM2.c
-│   ├── RTC_Main.c
-│   ├── LCD.c
-│   └── delayms.c
+📁 EcoLight-Maestro
 │
-├── inc/
+├── 📄 README.md
+│   └── Complete project overview
+│
+├── 📁 docs
+│   ├── 📄 README.md
+│   ├── 📄 Abstract.pdf
+│   ├── 📄 Project_Report.pdf
+│   ├── 📄 Presentation.pptx
+│   └── 📄 User_Manual.pdf (Optional)
+│
+├── 📁 inc
+│   ├── 📄 README.md
 │   ├── ADC.h
 │   ├── ADC_defines.h
+│   ├── KPM.h
+│   ├── RTC.h
+│   ├── defines.h
 │   ├── delaydef.h
 │   ├── kpm_defines.h
-│   └── lcd.h
+│   ├── lcd.h
+│   ├── lcd_defines.h
+│   ├── pinconnectblock.h
+│   ├── pindefine.h
+│   └── types.h
 │
-├── simulation/
-│   ├── Project.pdsprj
-│   ├── HEX File
-│   └── Circuit Files
+├── 📁 src
+│   ├── 📄 README.md   ← Add this
+│   ├── ADC.c
+│   ├── KPM.c
+│   ├── Miniproject_Main.c
+│   ├── RTC.c
+│   ├── Startup.s
+│   ├── delayms.c
+│   ├── lcd.c
+│   └── pin.c
 │
-├── media/
-├── docs/
-└── README.md
+├── 📁 media
+│   ├── 📄 README.md
+│   ├── Circuit connections.png
+│   └── miniproject 2026-08-08 150540.mp4
+│
+├── 📁 simulation
+│   ├── 📄 README.md
+│   ├── 2026-08-08.png
+│   ├── 2026-08-08 (1).png
+│   ├── 2026-08-08 (2).png
+│   └── 2026-08-08 (3).png
 ```
 
 ---
